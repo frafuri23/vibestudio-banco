@@ -1,0 +1,12 @@
+{
+  "steps": [
+    { "tap": "Crea il tavolo · Poker" },
+    { "type": { "placeholder": "Es. Andrea", "text": "Andrea" } },
+    { "tap": "Salva e continua" },
+    { "expect": "In tempo reale" },
+    { "tap": "Aggiungi chi non ha il telefono" },
+    { "type": { "placeholder": "Es. Nonna Pina", "text": "Nonna Pina" } },
+    { "tap": "Aggiungi al tavolo" },
+    { "expect": "Senza telefono" }
+  ]
+}

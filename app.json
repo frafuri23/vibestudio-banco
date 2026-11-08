@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Banco",
+    "slug": "banco",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#13110E",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.frafuri.banco",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.frafuri.banco"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "icon": "https://appspawn-gateway-production.up.railway.app/v1/assets/d3b599b4-f2b3-5f1c-a31b-a8db5a3ee1b5/icon-1794098961659.png",
+    "owner": "frafuri",
+    "extra": {
+      "eas": {
+        "projectId": "94fe0123-8ae4-47c5-9fc4-5f97c2d218bf"
+      },
+      "vibestudio": {
+        "proxy": "https://appspawn-gateway-production.up.railway.app/v1/app-proxy/d3b599b4-f2b3-5f1c-a31b-a8db5a3ee1b5",
+        "key": "1703d2979c80483d1690d4c770d323443f7da3bf"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/94fe0123-8ae4-47c5-9fc4-5f97c2d218bf",
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 0,
+      "requestHeaders": {
+        "expo-channel-name": "production"
+      }
+    },
+    "runtimeVersion": "1.0.0-n603bfb7e"
+  }
+}
